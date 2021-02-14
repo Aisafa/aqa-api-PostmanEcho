@@ -12,7 +12,7 @@ public class PostmanEchoRest {
         //Предусловия
         given()
                 .baseUri("https://postman-echo.com")
-                .body("Hello world")
+                .body("Goodbye world")
                 //Выполняемые действия
                 .when()
                 .post("/post")
